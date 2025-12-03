@@ -4,9 +4,6 @@
 	(generator_version "9.0")
 	(uuid "2103ff40-a0f9-4af6-b139-28a24feb21b6")
 	(paper "A4")
-	(title_block
-		(title "Elproj2")
-	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
