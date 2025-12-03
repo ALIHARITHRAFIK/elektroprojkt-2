@@ -1,11 +1,23 @@
-# KiCad ignores
-*.lck
-*.bak
-*.kicad_prl
-fp-info-cache
-_autosave-*
-backups/
+# Python files/folders
+/venv/
+.env
 
-# OS ignores
-.DS_Store
-Thumbs.db
+.vscode/
+
+/KiCad/*.kicad_prl
+
+/KiCad/*.lck
+
+/KiCad/rubiks-cub-backups/
+
+/KiCad/*.kicad_session
+
+#Generic temp files
+/KiCad/*~
+
+/KiCad/gerbers/
+/KiCad/plots/
+/KiCad/*.gbr
+/KiCad/*.drl
+/KiCad/*.pos
+/KiCad/*.rpt
