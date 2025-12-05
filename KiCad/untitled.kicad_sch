@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6136a3ab-5421-4426-a65b-a49c115a2b73")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 74.93 59.69)
+		(end 173.99 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b00a7355-8a17-4f8a-afb7-0f3f09ad84dd)
+	)
+	(text "Test"
+		(exclude_from_sim no)
+		(at 76.962 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c449d4dd-d48d-4ffe-a37f-8cba582a7f27")
+	)
+)

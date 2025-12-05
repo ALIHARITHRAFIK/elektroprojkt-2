@@ -2883,6 +2883,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 137.16 179.07)
+		(size 33.02 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cfe2b6e-40ac-4d87-89db-7dcc8eb51f56")
+		(property "Sheetname" "Powrsupply"
+			(at 137.16 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 137.16 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "elektroprojekt_2"
+				(path "/2103ff40-a0f9-4af6-b139-28a24feb21b6"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

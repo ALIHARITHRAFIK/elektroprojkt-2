@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "1.kicad_pro",
+    "filename": "elektroprojekt_2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -621,6 +621,10 @@
     [
       "2103ff40-a0f9-4af6-b139-28a24feb21b6",
       "Root"
+    ],
+    [
+      "7cfe2b6e-40ac-4d87-89db-7dcc8eb51f56",
+      "Powrsupply"
     ]
   ],
   "text_variables": {}
