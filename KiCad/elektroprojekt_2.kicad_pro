@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "1.kicad_pro",
+    "filename": "elektroprojekt_2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -603,7 +603,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "elektroprojekt_2.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",

@@ -972,7 +972,7 @@
 	)
 	(text_box "Kretsen för filtret"
 		(exclude_from_sim no)
-		(at 173.99 60.96 0)
+		(at 170.18 60.96 0)
 		(size 114.3 86.36)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1035,6 +1035,12 @@
 		(uuid "344de5e7-02e7-4aa1-b862-2bc8f28a2ae0")
 	)
 	(junction
+		(at 91.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "578d292b-534e-4f83-a25b-a55f6a7da8b2")
+	)
+	(junction
 		(at 133.35 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1057,12 +1063,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d02852a4-94e6-4a4d-91d4-9d899772c1a4")
-	)
-	(junction
-		(at 91.44 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4733597-2306-417c-9e27-99d763889e90")
 	)
 	(junction
 		(at 181.61 95.25)
@@ -1139,16 +1139,6 @@
 			(type default)
 		)
 		(uuid "1765a36c-8a70-4441-a20b-c85dacd12fe4")
-	)
-	(wire
-		(pts
-			(xy 281.94 101.6) (xy 281.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2162e23e-83b5-425e-9fd0-2ab6482c7b6b")
 	)
 	(wire
 		(pts
@@ -1302,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 88.9) (xy 281.94 88.9)
+			(xy 233.68 88.9) (xy 279.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 91.44 92.71)
+			(xy 59.69 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1349,16 +1339,6 @@
 			(type default)
 		)
 		(uuid "75b2e9ef-8083-4364-85d0-ab2d10587612")
-	)
-	(wire
-		(pts
-			(xy 91.44 92.71) (xy 95.25 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7739cf4c-9b48-4065-9030-6791617f2500")
 	)
 	(wire
 		(pts
@@ -1399,16 +1379,6 @@
 			(type default)
 		)
 		(uuid "918c944e-e9f5-4d88-bc20-ea0564b05724")
-	)
-	(wire
-		(pts
-			(xy 91.44 76.2) (xy 91.44 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d1b33e-d3ed-447f-b642-280d9211eba5")
 	)
 	(wire
 		(pts
@@ -1479,6 +1449,16 @@
 			(type default)
 		)
 		(uuid "c18eda1b-e56b-4fc5-a149-a8b318c2949d")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a24f69-188d-4b3d-b1e4-f99cae56ac3b")
 	)
 	(wire
 		(pts
@@ -2561,76 +2541,6 @@
 			(project "1"
 				(path "/2103ff40-a0f9-4af6-b139-28a24feb21b6"
 					(reference "V5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 281.94 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4731039-c259-4542-ada4-6776ee53d70d")
-		(property "Reference" "R5"
-			(at 284.48 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20kΩ"
-			(at 284.48 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.718 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 281.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 281.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf204d70-b6b1-472a-af5f-75b78adc6bf7")
-		)
-		(pin "2"
-			(uuid "85ace712-8fbb-4130-b79d-cd9d6f501f67")
-		)
-		(instances
-			(project "elektroprojekt_2"
-				(path "/2103ff40-a0f9-4af6-b139-28a24feb21b6"
-					(reference "R5")
 					(unit 1)
 				)
 			)
